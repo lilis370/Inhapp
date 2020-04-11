@@ -6,13 +6,13 @@ namespace LatihanInheritance
     {
         static void Main(string[] args)
         {
-            Person person = new Person("Alma", 16);
+            Person person = new Person("Lilis", 16);
             person.GetNameAndAge();
 
             Teacher teacher = new Teacher("Pak Arif Eka", 36, "190345", "Computer Networking");
             teacher.GetNameAndAge();
 
-            Student student = new Student("Alma Monika", 16, "19.11.2763", "Almamonika@students.amikom.ac.id");
+            Student student = new Student("lilis widiyanti", 16, "19.11.2774", "lilis.widiyanti@students.amikom.ac.id");
             student.GetNameAndAge();
 
             Console.ReadKey();
